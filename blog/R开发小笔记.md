@@ -1,0 +1,34 @@
+---
+title: R开发小笔记
+description: R开发小笔记
+---
+
+
+## 简介
+
+记录`R`开发过程中的一些小笔记
+
+
+## 安装指定版本依赖包
+
+背景：项目工程迁移到新环境的时候，需要执行`install.packages`重新安装包，这时候默认是安装新版本的依赖包，然后导致现有代码可能出现不兼容的情况。
+
+解决：安装原项目工程的指定版本依赖包
+- 前往 `CRAN` 查看依赖包的历史版本
+- 在 `R` 工程里安装指定版本
+- 安装脚本如下：
+```R
+# 安装并加载 devtools 
+install.packages("devtools") 
+library(devtools) 
+
+# 安装指定版本的包，例如 dplyr 的 1.0.0 版本 
+install_version("dplyr", version = "1.0.0")
+```
+>⚠️ 注意：需要确保指定的版本存在于 CRAN 存档中。
+
+验证安装的版本：
+```R
+# 输出依赖包的版本号
+packageVersion("dplyr")
+```

@@ -44,7 +44,7 @@ function HomepageHeader() {
       <div className={styles.welcome_intro}>
         <h1 className={styles.hero_title}>
           muchen的秘密基地 
-          <span style={{ color: 'var(--ifm-color-primary)' }}>
+          <span style={{ color: 'var(--ifm-color-primary)', display: 'block'}}>
             嗷呜~
           </span>
         </h1>
