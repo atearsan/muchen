@@ -42,6 +42,7 @@ description: 换新电脑，在macOS上搭建新的工作环境
 - ToDesk（远程协助）
 - File Zilla（FTP）
 - [Obsidian（MarkDown / 知识库）](https://obsidian.md/)
+- [draw.io（流程图）](https://www.drawio.com/)
 
 **开发工具**
 - VS Code

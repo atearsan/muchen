@@ -152,7 +152,7 @@ const config = {
         copyright: `
         <footer>
           <p> 
-            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43032102000257" style="color:#fff; display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo" style="color:#fff; display:inline-block;text-decoration:none;height:20px;line-height:20px;">
                 <img src="/img/beian.png" style="float:left;"/>湘公网安备 43032102000257号
             </a>
             <a style="color:#fff; margin-left: 15px; text-decoration:none;" target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">
