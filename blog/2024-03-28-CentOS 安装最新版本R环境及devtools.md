@@ -1,5 +1,6 @@
 ---
 title: CentOS 安装最新版本R环境及devtools
+slug: /blog/centos-install-latest-r-and-devtools
 description: CentOS 安装最新版本R环境及devtools
 keywords:
   - Linux安装R
@@ -11,6 +12,7 @@ keywords:
   - "fatal error: hb.h: No such file or directory"
   - dependency ‘ragg’ is not available for package ‘pkgdown’
   - devtools安装报错失败
+date: 2024-03-28
 ---
       
 > 使用`CentOS`默认的包管理器安装`R`的时候，安装版本是`3.6.0 (2019-04-26)`，目前最新版是`4.3.3 (2024-02-29)`。本文介绍怎么在`CentOS`下安装最新版`R`。
