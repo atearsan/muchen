@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -26,6 +26,14 @@ function randomImg() {
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  // 使用 useState 来管理图片路径
+  const [imageSrc, setImageSrc] = useState(randomImg());
+
+  // 点击事件处理函数
+  const handleImageClick = () => {
+    setImageSrc(randomImg());
+  };
+
   return (
     // <header className={clsx('hero hero--primary', styles.heroBanner)}>
     //   <div className="container">
@@ -53,7 +61,8 @@ function HomepageHeader() {
         </p>
       </div>
       <div className={styles.welcome_svg}>
-        <img src={useBaseUrl(randomImg())} />
+        {/* 添加 onClick 事件，并使用 state 中的 imageSrc */}
+        <img src={useBaseUrl(imageSrc)} onClick={handleImageClick} alt="Random Car" />
       </div>
     </div>
   );

@@ -6,8 +6,8 @@
 
 - 📝 技术博客
 - 📚 文档中心
-- 🤖 AI编程专题
-- 💬 ChatGPT专题
+- 🤖 AI专题
+- 🤖 Web3
 - 🔍 全文搜索
 
 ## 目录结构
@@ -16,8 +16,8 @@
 muchen-secret-base/
 ├── blog/                 # 博客文章
 ├── docs/                 # 文档
-│   ├── ai-programming/  # AI编程相关文档
-│   ├── chatgpt/        # ChatGPT相关文档
+│   ├── ai/             # AI相关文档
+│   ├── web3/           # Web3相关文档
 │   └── tutorial/       # 教程文档
 ├── src/                 # 源代码
 │   ├── components/     # React组件

@@ -76,7 +76,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      metadata: [{name: 'keywords', content: '老路的秘密基地, OpenAI, ChatGPT, Midjourney, Web3, 区块链, 撸空投'}],
+      metadata: [{name: 'keywords', content: '老路的秘密基地, AI, Web3, 区块链, 撸空投'}],
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'muchen的秘密基地',
@@ -92,15 +92,15 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'chatgptlSidebar',
+            sidebarId: 'aiSidebar',
             position: 'left',
-            label: 'ChatGPT',
+            label: 'AI',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'aiProgrammingSidebar',
+            sidebarId: 'web3Sidebar',
             position: 'left',
-            label: 'AI编程',
+            label: 'Web3',
           }
         ],
       },
@@ -168,7 +168,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['r'], // 支持R代码高亮
+        additionalLanguages: ['r', 'bash'], // 支持R代码高亮
       },
     }),
     scripts: [
