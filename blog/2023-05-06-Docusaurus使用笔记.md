@@ -29,3 +29,6 @@ https://forum-zh.obsidian.md/t/topic/435
 ## Docusaurus 官网文档
 
 https://docusaurus.io/zh-CN/docs
+
+- 启动：`npm start`
+- 构建：`npm run build`

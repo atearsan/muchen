@@ -68,6 +68,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-ZWTFES0MZH',
+          anonymizeIP: true,
+        }
       }),
     ],
   ],
@@ -101,6 +105,12 @@ const config = {
             sidebarId: 'web3Sidebar',
             position: 'left',
             label: 'Web3',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'productManagerSidebar',
+            position: 'left',
+            label: '产品经理',
           }
         ],
       },
